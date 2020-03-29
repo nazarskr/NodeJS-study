@@ -1,0 +1,21 @@
+<h2>Додати</h2>
+
+<form action="/add" method="POST">
+    <div class="input-field">
+        <input id="title" name="title" type="text" class="validate" required>
+        <label for="title">Title</label>
+        <span class="helper-text" data-error="enter title" data-success="right"></span>
+    </div>
+    <div class="input-field">
+        <input id="price" name="price" type="number" class="validate" required>
+        <label for="price">Price</label>
+        <span class="helper-text" data-error="enter price" data-success="right"></span>
+    </div>
+    <div class="input-field">
+        <input id="img" name="img" type="text" class="validate" required>
+        <label for="img">Image</label>
+        <span class="helper-text" data-error="enter url" data-success="right"></span>
+    </div>
+
+    <button class="btn btn-primary">Submit</button>
+</form>
